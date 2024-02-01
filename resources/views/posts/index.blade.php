@@ -38,6 +38,7 @@
         }
     }
     </script>
+    {{ Auth::user()->name }}
     </body>
    
 </html>
